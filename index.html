@@ -1,0 +1,215 @@
+<title>coeval_cal — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --text: #1b2430;
+    --text-muted: #5b6472;
+    --border: #e1e4e9;
+    --accent: #2954a6;
+    --accent-soft: #eaf0fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1420;
+      --surface: #161d2b;
+      --text: #e7eaf0;
+      --text-muted: #9aa4b2;
+      --border: #263047;
+      --accent: #6e9fe8;
+      --accent-soft: #1b2740;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1420;
+    --surface: #161d2b;
+    --text: #e7eaf0;
+    --text-muted: #9aa4b2;
+    --border: #263047;
+    --accent: #6e9fe8;
+    --accent-soft: #1b2740;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 28px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    font-style: italic;
+    font-size: 15px;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    font-size: 14px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .meta strong { color: var(--text); font-weight: 600; }
+
+  section {
+    margin: 40px 0;
+    max-width: 62ch;
+  }
+  h2 {
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+  p { margin: 0 0 14px; color: var(--text); }
+  p.lede { color: var(--text-muted); }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin-bottom: 8px; }
+
+  .scope-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .scope-list li {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .scope-name {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 12.5px;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 4px;
+    word-break: break-all;
+  }
+  .scope-desc { color: var(--text-muted); font-size: 14.5px; }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 14px 18px;
+    font-size: 14.5px;
+    color: var(--text);
+  }
+  .callout a { color: var(--accent); }
+
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13.5px;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 480px) {
+    .page { padding: 48px 18px 72px; }
+    h1 { font-size: 27px; }
+  }
+</style>
+
+<div class="page">
+  <header>
+    <p class="eyebrow">Privacy Policy</p>
+    <h1>coeval_cal</h1>
+    <div class="meta">
+      <span><strong>Effective</strong> August 12, 2026</span>
+      <span><strong>Contact</strong> joonsuk.lee@gmail.com</span>
+    </div>
+  </header>
+
+  <section>
+    <p class="lede">coeval_cal is a personal automation tool, written and operated by a single individual developer, that publishes pre-produced video content to that same developer's own YouTube channel using the YouTube Data API. It is not distributed to, or used by, any other person.</p>
+  </section>
+
+  <section>
+    <h2>Who can use this app</h2>
+    <p>This app has exactly one user: its developer. It is not a public product, is not distributed through any app store or marketplace, and does not accept sign-ins from any Google Account other than the developer's own. There is no user registration, no public-facing interface, and no mechanism for a third party to authorize this app against their own Google Account.</p>
+  </section>
+
+  <section>
+    <h2>What data we access</h2>
+    <p>To publish videos on the developer's behalf, the app requests the following Google OAuth scopes, all scoped to the developer's own YouTube channel:</p>
+    <ul class="scope-list">
+      <li>
+        <span class="scope-name">https://www.googleapis.com/auth/youtube.upload</span>
+        <span class="scope-desc">Uploads video files to the developer's channel.</span>
+      </li>
+      <li>
+        <span class="scope-name">https://www.googleapis.com/auth/youtube</span>
+        <span class="scope-desc">Sets video titles, descriptions, tags, and manages playlists on the developer's channel after upload.</span>
+      </li>
+      <li>
+        <span class="scope-name">https://www.googleapis.com/auth/youtube.force-ssl</span>
+        <span class="scope-desc">Same channel-management actions as above, requested over an encrypted connection.</span>
+      </li>
+    </ul>
+    <p>The app does not request access to Gmail, Drive, Contacts, or any Google data outside of the developer's own YouTube channel.</p>
+  </section>
+
+  <section>
+    <h2>How this data is used</h2>
+    <p>Video files, titles, descriptions, and playlist assignments are used solely to publish content the developer has already created, directly to the developer's own channel. The app does not analyze, profile, resell, or otherwise use this data for any purpose beyond performing the specific publishing action the developer initiates.</p>
+    <p>No data collected or accessed through these scopes is shared with, sold to, or disclosed to any third party, advertiser, or other Google API client.</p>
+  </section>
+
+  <section>
+    <h2>Where data is stored</h2>
+    <p>The app runs entirely on hardware owned and controlled by the developer. There is no server component, no hosted database, and no cloud storage operated by the app. OAuth credentials (an access token and refresh token) are written to a single local configuration file on that hardware and are used only to make authenticated requests to the YouTube Data API on the developer's behalf.</p>
+    <div class="callout">
+      Access can be revoked at any time from <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account → Security → Third-party access</a>. Revoking access immediately invalidates the locally stored credentials.
+    </div>
+  </section>
+
+  <section>
+    <h2>Children's privacy</h2>
+    <p>This app is not directed at children and is not designed for or marketed to anyone other than its single adult developer-user.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If the scopes or purpose of this app change, this page will be updated and the effective date above will change accordingly.</p>
+  </section>
+
+  <footer>
+    coeval_cal · personal-use application · questions to joonsuk.lee@gmail.com
+  </footer>
+</div>
